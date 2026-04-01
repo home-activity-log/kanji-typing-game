@@ -1,0 +1,38 @@
+HTML
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>漢検タイピング練習</title>
+   <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="status">
+      <p>時間：<span id="time">60</span></p>
+      <p>スコア：<span id="score">0</span></p>
+    </div>
+
+    <div id="kanji" class="kanji">スタートボタンを押してください。</div>
+
+    <input
+      id="input"
+      type="text"
+      placeholder="ひらがなで入力"
+      autocomplete="off"
+      disabled
+      />
+
+    <div class="buttons">
+      <button id="startBtn">スタート</button>
+    </div>
+
+    <p id="message"></p>
+  </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+  
+  
+  
