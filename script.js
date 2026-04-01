@@ -68,6 +68,8 @@ inputEl.addEventListener("input", () => {
     scoreEl.textContent = score;
     messageEl.textContent = "正解！";
 
+    inputE1.value = ""; //
+
     pickQuestion();
   }
 });
